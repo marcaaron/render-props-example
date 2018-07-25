@@ -1,0 +1,27 @@
+ul {
+  width: 80%;
+  margin: 20px auto;
+  list-style: none;
+  padding: 0;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, 200px);
+}
+
+li * {
+  padding: 5px 0;  
+}
+
+strong {
+  white-space: pre;
+}
+
+strong::after {
+  content: '\A';
+}
+
+img {
+  width: 150px;
+}
